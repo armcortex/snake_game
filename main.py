@@ -230,6 +230,7 @@ def main():
     fps = pg.time.Clock()
     while True:
         game.generate_food()
+        
         game.check_keys()
         game.moving_and_eating(snake)
         game.show_snake(snake)
